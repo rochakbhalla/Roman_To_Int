@@ -1,3 +1,15 @@
+"""
+@author: rochak.bhalla@ymail.com
+"Beginner to Leetcode, you might peek in to this soultion for better understanding ;)"
+
+This soultion has run in 17ms which is faster than the 90% online submissions, as per the leetcode data.
+
+The solution checks if the first element is roman number or not, if yes then it checks, whether its not a last elemnt of string.
+If not, then it checks for the immedidate number if that comes in the below crieteria:
+I can be placed before V (5) and X (10) to make 4 and 9. 
+X can be placed before L (50) and C (100) to make 40 and 90. 
+C can be placed before D (500) and M (1000) to make 400 and 900 
+"""
 class Solution(object):
     def romanToInt(self, s):
         """
